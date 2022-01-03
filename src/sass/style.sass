@@ -1,0 +1,498 @@
+html
+    scroll-behavior: smooth
+body
+    background-color: #18141A
+    color: #fff
+    background-image: url("../icons/Vector7.png")
+    font-family: 'Roboto', sans-serif
+input, div, form, a, span, textarea
+    box-sizing: border-box
+.container
+    width: 1200px
+    margin: 0 auto
+.btn
+    z-index: 100
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 13.75rem
+    height: 3.75rem
+    border-radius: .5rem
+    font-size: 1.25rem
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    color: #fff
+    text-decoration: none
+    font-weight: 700
+    border: .0625rem solid transparent
+    background: linear-gradient(#18141A,#18141A) content-box,linear-gradient(265.75deg, #B324A5 0%, #FF3155 53.13%, #FFB25B 100%) border-box
+    span
+        position: absolute
+        width: 100%
+        height: 100%
+        z-index: -1
+    &:hover span
+        background: linear-gradient(264.76deg, rgba(179, 36, 165, 0.5) -0.75%, rgba(255, 49, 85, 0.5) 48.58%, rgba(255, 178, 91, 0.5) 100%)
+        filter: blur(1.75rem)
+    &:active
+        background: linear-gradient(264.76deg, #B324A5 -0.75%, #FF3155 48.58%, #FFB25B 100%)
+    &:active span
+        background: none 
+
+.btn-blue
+    background: linear-gradient(#18141A,#18141A) content-box,linear-gradient(265.75deg, #243BB3 0%, #31CEFF 53.13%, #B324A5 100%) border-box
+    &:hover span
+        background: linear-gradient(264.76deg, rgba(2, 50, 126, 0.5) -0.75%, rgba(115, 152, 224, 0.5) 48.58%, rgba(165, 7, 170, 0.5) 100%) 
+        filter: blur(1.75rem)
+    &:active
+        background: linear-gradient(265.75deg, #243BB3 0%, #31CEFF 53.13%, #B324A5 100%)
+    &:active span
+        background: none 
+
+.btn-yellow
+    background: linear-gradient(#18141A,#18141A) content-box, rgba(255, 252, 1, 1) border-box
+    &:hover span
+        background: linear-gradient(264.76deg, rgba(230, 98, 13, 0.5) -0.75%, rgba(255, 153, 0, 0.5) 48.58%, rgba(255, 252, 1, 0.5) 100%)
+        filter: blur(1.75rem)
+    &:active
+        background: rgba(255, 252, 1, 1)
+    &:active span
+        background: none
+
+
+.glow
+    position: absolute
+    background: linear-gradient(264.76deg, #B324A5 -0.75%, #FF3155 48.58%, #FFB25B 100%)
+    filter: blur(3.75rem)
+.section_title
+    letter-spacing: 0.05em
+    font-size: 3.75rem
+    text-transform: uppercase
+    font-weight: 400
+    text-align: center
+
+.header
+    width: 74%
+    margin: 0px auto
+    &__wrap
+        display: flex
+        justify-content: space-between
+        height: 6.25rem
+        width: 100%
+        align-items: center
+        .logo
+            font-weight: 500
+            font-size: 2.25rem
+            color: #fff
+            text-decoration: none
+            sub
+                font-weight: 300
+                font-size: 1.5rem
+                span
+                    font-weight: 400
+                    background-color: #E6620D
+                    background-image:linear-gradient(111.91deg, #EC8C0A -109.38%, #E6620D 17.11%)
+                    -webkit-background-clip: text
+                    -webkit-text-fill-color: transparent
+        &_menu
+            display: flex
+            list-style: none
+            text-transform: uppercase
+            li
+                cursor: pointer
+                margin-right: 3.75rem
+                &:last-child
+                    margin-right: 0px
+                .line-1, .line-2, .line-3
+                    display: none
+                    background-color: #FF6857
+                    margin: .5rem 0rem 0rem 0rem
+                    border: none
+                    height: 1px
+                .line-2
+                    background-color: #31CEFF
+                .line-3
+                    background-color: #FFFC01
+            .menu_item-active
+                hr
+                    display: block
+.main
+    &__wrap
+        position: relative
+        padding-top: 9.25rem
+        .block-active
+            display: flex
+        &_content_block
+            justify-content: space-between
+            display: none
+            &-descr
+                letter-spacing: 0.27em
+                text-transform: uppercase
+                font-size: 1.5rem
+                font-weight: 500
+                margin: 0rem
+            &-title
+                color: #86808D
+                letter-spacing: 0.05em
+                text-transform: uppercase
+                font-weight: 500
+                font-size: 3.75rem
+                line-height: 5.3125rem
+                margin: 1.25rem 0rem 5rem 0rem
+                strong
+                    font-weight: 900
+                span
+                    color: #fff
+                    text-transform: none
+                    letter-spacing: 0px
+                    position: relative
+                    padding-left: 6.5625rem
+                    font-weight: 500
+                    img
+                        position: absolute
+                        margin-top: 7px
+                        left: .625rem
+            &-social_links
+                width: 11.25rem
+                display: flex
+                justify-content: space-between
+                margin-top: 7.5625rem
+        .roblox
+            .main__wrap_content_block-title
+                margin: -2.25rem 0rem 7rem 0rem
+                font-weight: 400
+        h1
+            font-size: 3.75rem
+            font-weight: 400
+            display: flex
+            align-items: center
+            img
+                margin-right: 1.5625rem
+
+.card
+    width: 25rem
+    height: 37.5rem   
+    background: #242129
+    border-radius: 1.25rem
+    &_img
+        background: #37333D
+        position: relative
+        height: 25rem
+        border-radius: 1.25rem 1.25rem 0rem 0rem 
+        span
+            width: 12.5rem
+            height: 18.75rem
+            top: 15%
+            left: 25%
+        img
+            position: absolute
+            top: -27%
+            left: -25%
+    &_info
+        padding-top: 1.75rem
+        padding-left: 1.875rem
+        padding-right: 1.875rem
+        letter-spacing: 0.02em
+        text-transform: uppercase
+        font-weight: 500
+        font-size: 1.75rem
+        div
+            display: flex
+            // justify-content: space-between
+            .card_title
+                margin: 0rem 2rem 0rem 0rem
+            .card_price
+                img
+                    width: 1.75rem
+                    margin-right: .5rem
+        p
+            color: #676370
+            font-size: 1.5rem
+            text-transform: none
+            font-weight: 400
+        .legendary
+            display: flex
+            width: 8.6875rem
+            height: 2.5rem
+            background: #842DDA
+            border-radius: .25rem
+            font-size: 1.25rem
+            color: #fff
+            text-decoration: none
+            align-items: center
+            justify-content: center
+            margin-right: 1.375rem
+        .clothes, .gender
+            width: 2.5rem
+            height: 2.5rem
+            background: #37333D
+            border-radius: .25rem
+        .gender
+            &::after
+                content: url('../icons/gender.svg')
+                margin: auto
+                height: 2.125rem
+        .clothes
+            margin-right: 1.375rem
+            &::after
+                content: url('../icons/clothes.svg')
+                margin: auto
+                height: 2.125rem
+
+.wearables
+    padding-top: 12.5rem
+    .section_title
+        text-align: left
+    &__wrap
+        padding-left: 18%
+        padding-right: 5rem
+        background: rgba(36, 33, 41, 0.7)
+        border-radius: 0px 20px 20px 0px
+        min-height: 43.75rem
+        width: 80%
+        box-sizing: border-box
+        justify-content: space-between
+        display: flex
+        &_img
+            padding-top: 3.125rem
+        &_info
+            padding-top: 3.125rem
+            &_list
+                list-style: none
+                padding-left: .6875rem
+                line-height: 3rem
+                margin-bottom: 4.0625rem
+                li
+                    color: #86808D
+                    font-size: 1.5rem
+                    letter-spacing: 0.02em
+                    &::before
+                        content: url(../icons/Ellipse.svg)
+                        margin-left: -0.6875rem
+                        height: .25rem
+                        display: block
+.work
+    padding-top: 10.5rem
+    min-height: 53rem
+    .section_title
+        span
+            font-weight: 900
+    &__wrap
+        width: 100%
+        display: flex
+        margin-top: 8.75rem
+        justify-content: space-between
+        &_block
+            width: 15.625rem
+            &_item
+                position: relative
+                width: 15.625rem
+                height: 15.625rem
+                background: rgba(36, 33, 41, 0.5)
+                border-radius: 1.25rem
+                letter-spacing: 0.27em
+                text-transform: uppercase
+                box-sizing: border-box
+                padding-top: 3.375rem
+                color: #fff
+                text-align: center
+                &_text
+                    font-size: 6.25rem
+                    font-weight: 700
+                    display: flex
+                    width: 9.375rem
+                    margin: auto
+                    flex-direction: column
+                    line-height: 5.3125rem
+                    small
+                        font-size: 1.5rem
+                        font-weight: 500
+            #triangle
+                &::before
+                    content: ''
+                    position: absolute
+                    right: 1.25rem
+                    border: 40px solid transparent
+                    border-left: 30px solid rgba(36, 33, 41, 0.5)
+                    top: 50%
+                    transform: translateY(-50%)
+                    left: 15.625rem
+            &:hover .work__wrap_block_item_text
+                background: linear-gradient(264.76deg, #B324A5 -0.75%, #FF3155 48.58%, #FFB25B 100%)
+                -webkit-background-clip: text
+                -webkit-text-fill-color: transparent
+            &:hover .work__wrap_block_info
+                display: block
+            &_info
+                display: none
+                p
+                    font-size: 20px
+                    line-height: 24px
+                    text-align: center
+                    letter-spacing: 0.08em
+                    color: #86808D
+                .btn
+                    margin: 2.5rem auto
+                    width: 8.4375rem
+
+.plane
+    padding-bottom: 3.75rem
+    &__wrap
+        margin-top: 4.6875rem
+        display: flex
+        width: 100%
+        justify-content: space-between
+    .card
+        width: 22.5rem
+        height: 43rem
+        &_img
+            height: 16.25rem
+            position: relative
+            img
+                position: absolute
+                width: 80%
+                top: -0.625rem
+                left: 2.3125rem
+                z-index: 0
+        &_title
+            font-weight: 500
+            font-size: 1.5rem
+            letter-spacing: 0.27em
+            text-transform: uppercase
+            text-align: center
+            margin: 0
+        div
+            ul
+                font-size: 1.5rem
+                font-weight: 400
+                text-transform: none
+                margin: 1.875rem 0rem 2.375rem 0rem 
+    .set
+        img
+            top: -2.625rem
+            width: 113%
+            left: -0.5625rem
+    .custom
+        img
+            top: -42px
+            width: 130%
+            left: -53px        
+    .btn
+        width: 10rem
+        margin: 0px auto
+
+.contact
+    padding-top: 9.375rem
+    padding-bottom: 9.625rem
+    &__wrap
+        background: rgba(36, 33, 41, 0.7)
+        border-radius: 1.25rem
+        width: 100%
+        padding-top: .625rem
+        padding-left: 3.75rem
+        padding-right: 6.25rem
+        padding-bottom: 4.8125rem
+        min-height: 46.25rem
+        &_block
+            display: flex
+            justify-content: space-between
+            &_form
+                form
+                    display: flex
+                    flex-direction: column
+                    input[type=text], input[type=Email], textarea
+                        margin-top: 2.5rem
+                        width: 30rem
+                        height: 3.75rem
+                        background: #37333D
+                        border-radius: 8px
+                        border: none
+                        padding-left: 20px
+                        font-size: 1.25rem
+                        line-height: 1.5rem
+                        letter-spacing: 0.08em
+                        color: #fff
+                    textarea
+                        padding-top: 1.25rem
+                        min-height: 10rem
+                    button
+                        padding: 0rem
+                        width: 8.0625rem
+                        margin-top: 2.5rem
+                    .bottom_block
+                        display: flex
+                        justify-content: space-between
+                        align-items: baseline
+                .input_wrapper
+                    display: flex
+                    position: relative
+                    justify-content: start
+                    align-items: baseline
+                    input[type=file]
+                        opacity: 0
+                        position: absolute
+                    label
+                        font-size: 1.25rem
+                        letter-spacing: 0.1em
+                        font-weight: 700
+                        cursor: pointer
+                        z-index: 1000
+                        text-transform: uppercase
+                        margin-right: 1.25rem
+                    .file_name
+                        text-align: center
+                        letter-spacing: 0.02em
+                        font-size: .75rem
+                        margin-right: 1.25rem
+                        span
+                            display: block
+                            width: 3.75rem
+                            height: 3.75rem
+                            background: #37333D
+                            border-radius: .5rem
+                            text-align: center
+                            padding-top: .9375rem
+                            margin-bottom: .3125rem
+                            &::after
+                                content: url('../icons/iconOK.svg')
+            &_info
+                width: 24.375rem
+                padding-top: 4.6875rem
+                &_descr
+                    font-weight: 500
+                    font-size: 1.25rem
+                    line-height: 2.5rem
+                    letter-spacing: 0.1em
+                    text-transform: uppercase       
+                &_link
+                    font-weight: 500
+                    display: flex
+                    align-items: center
+                    font-size: 2.5rem
+                    color: #FFFFFF
+                    text-decoration: none
+                    margin-bottom: 1rem
+                    margin-top: 2.5rem
+                    img
+                        width: 3.3125rem
+                        margin-right: 12px
+        &_done
+            display: none
+            .btn
+                width: 9.375rem
+                height: 9.375rem
+                margin: 7.5rem auto 2.5rem
+                span
+                    background: linear-gradient(264.76deg, rgba(179, 36, 165, 0.5) -0.75%, rgba(255, 49, 85, 0.5) 48.58%, rgba(255, 178, 91, 0.5) 100%)
+                    filter: blur(1.75rem)
+                    height: 3.75rem
+                img
+                    width: 6.25rem
+            p
+                font-size: 1.25rem
+                line-height: 2.5rem
+                text-align: center
+                letter-spacing: 0.1em
+                text-transform: uppercase
+
