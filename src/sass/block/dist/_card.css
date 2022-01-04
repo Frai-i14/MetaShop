@@ -1,0 +1,80 @@
+.card {
+  width: 25rem;
+  height: 37.5rem;
+  background: #242129;
+  border-radius: 1.25rem;
+}
+.card_img {
+  background: #37333D;
+  position: relative;
+  height: 25rem;
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+}
+.card_img span {
+  width: 12.5rem;
+  height: 18.75rem;
+  top: 15%;
+  left: 25%;
+}
+.card_img img {
+  position: absolute;
+  top: -2.5rem;
+  left: -1.25rem;
+}
+.card_info {
+  padding-top: 1.75rem;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.75rem;
+}
+.card_info div {
+  display: flex;
+}
+.card_info div .card_title {
+  margin: 0rem 2rem 0rem 0rem;
+}
+.card_info div .card_price img {
+  width: 1.75rem;
+  margin-right: 0.5rem;
+}
+.card_info p {
+  color: #676370;
+  font-size: 1.5rem;
+  text-transform: none;
+  font-weight: 400;
+}
+.card_info .legendary {
+  display: flex;
+  width: 8.6875rem;
+  height: 2.5rem;
+  background: #842DDA;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.375rem;
+}
+.card_info .clothes, .card_info .gender {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #37333D;
+  border-radius: 0.25rem;
+}
+.card_info .gender::after {
+  content: url("../icons/gender.svg");
+  margin: auto;
+  height: 2.125rem;
+}
+.card_info .clothes {
+  margin-right: 1.375rem;
+}
+.card_info .clothes::after {
+  content: url("../icons/clothes.svg");
+  margin: auto;
+  height: 2.125rem;
+}
