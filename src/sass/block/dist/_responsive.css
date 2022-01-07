@@ -1,0 +1,372 @@
+@media (max-width: 1920px) {
+  .container, .work__wrap {
+    width: 82.5rem;
+  }
+}
+@media (max-width: 1600px) {
+  .container, .work__wrap {
+    width: 71.25rem;
+  }
+
+  .header {
+    width: 77rem;
+  }
+
+  .wearables__wrap {
+    padding-left: 6.5rem;
+    width: 85.6rem;
+  }
+}
+@media (max-width: 1400px) {
+  .header {
+    width: 73rem;
+  }
+
+  .wearables__wrap {
+    padding-left: 0rem;
+    width: 74.6rem;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 60rem;
+  }
+
+  .header {
+    width: 60rem;
+  }
+
+  .main {
+    overflow: hidden;
+  }
+
+  .main__wrap_content_block-title, .section_title {
+    font-size: 2.5rem;
+  }
+
+  .main__wrap_content_block-title {
+    margin: 1.25rem 0rem 3rem 0rem;
+  }
+
+  .main__wrap_content_block-social_links {
+    margin-top: 5.5625rem;
+  }
+
+  .main__wrap_content_block-descr {
+    font-size: 1.4375rem;
+  }
+
+  .block-img {
+    display: flex;
+    justify-content: end;
+  }
+  .block-img img {
+    width: 90%;
+  }
+
+  .main__wrap {
+    padding-top: 5.25em;
+  }
+
+  .wearables__wrap {
+    width: 61rem;
+  }
+
+  .wearables__wrap_img {
+    padding-top: 5.125rem;
+    margin-right: 2rem;
+  }
+  .wearables__wrap_img img {
+    width: 89%;
+  }
+
+  .work {
+    overflow: scroll;
+  }
+  .work__wrap {
+    margin-top: 4.75rem;
+  }
+
+  .work__wrap_line {
+    padding: 0rem 1.25rem 0rem 1.25rem;
+  }
+
+  .contact__wrap_block_info {
+    margin-right: 0px;
+    padding-left: 2.1875rem;
+  }
+
+  .plane__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .plane__wrap .card {
+    margin-top: 2.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 45rem;
+  }
+
+  .header {
+    width: 85%;
+  }
+  .header__wrap .hamburger-menu {
+    display: block;
+  }
+  .header__wrap_block {
+    position: absolute;
+    padding: 8.75rem 0rem 0rem 2.5rem;
+    background-color: #18141A;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1000;
+  }
+  .header__wrap_block_menu {
+    padding: 0rem;
+    display: block;
+    width: max-content;
+  }
+  .header__wrap_block_menu li {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin: 1.875rem 0rem 0rem 0rem;
+  }
+  .header__wrap_block .main__wrap_content_block-social_links {
+    display: flex;
+  }
+
+  .main__wrap_content_block-title, .section_title {
+    font-size: 1.875rem;
+  }
+
+  .main__wrap_content_block-descr {
+    font-size: 0.875rem;
+  }
+
+  .main__wrap_content_block-title {
+    line-height: 3.125rem;
+  }
+  .main__wrap_content_block-title span {
+    padding-left: 4rem;
+  }
+  .main__wrap_content_block-title span img {
+    width: 2.5rem;
+  }
+
+  .main {
+    position: relative;
+    padding-bottom: 120px;
+  }
+  .main .card {
+    margin-top: 1.5625rem;
+  }
+  .main .btn {
+    position: absolute;
+    bottom: -120px;
+    left: 33%;
+  }
+
+  .main__wrap_content_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__wrap_content_block .main__wrap_content_block-social_links {
+    display: none;
+  }
+
+  .block-img {
+    justify-content: center;
+  }
+
+  .wearables .container {
+    flex-direction: column-reverse;
+  }
+  .wearables__wrap {
+    position: relative;
+    width: 94%;
+    padding-bottom: 180px;
+    padding-left: 1.5rem;
+  }
+  .wearables__wrap_info {
+    padding-top: 3.75rem;
+  }
+  .wearables__wrap_info .section_title {
+    text-align: center;
+  }
+  .wearables__wrap_info_list {
+    font-size: 1rem;
+    margin-top: 1.875rem;
+  }
+  .wearables__wrap_info .btn {
+    position: absolute;
+    bottom: 4rem;
+    left: 37%;
+  }
+  .wearables__wrap_img {
+    padding-top: 0rem;
+    margin: 0rem;
+  }
+  .wearables__wrap_img img {
+    display: block;
+    margin: 0rem auto;
+    width: 70%;
+  }
+
+  .work {
+    overflow: scroll;
+    min-height: 50rem;
+  }
+  .work__wrap_block_info p {
+    font-size: 1.125rem;
+  }
+  .work__wrap_block_info .btn {
+    display: none;
+  }
+
+  .plane {
+    overflow: hidden;
+  }
+
+  .contact__wrap {
+    padding: 2.5rem 0rem 0rem 0rem;
+    width: 90%;
+    margin: 0rem auto;
+  }
+  .contact__wrap_block {
+    display: block;
+  }
+  .contact__wrap_block_form {
+    padding: 0rem 1.5rem 0rem 1.5rem;
+  }
+  .contact__wrap_block_form form input[type=text], .contact__wrap_block_form form input[type=Email], .contact__wrap_block_form form textarea {
+    width: 100%;
+  }
+  .contact__wrap_block_info {
+    width: 100%;
+    background-color: #25222B;
+    padding-top: 1.25rem;
+    padding-bottom: 1.875rem;
+    margin-top: 3.125rem;
+    border-radius: 0rem 0rem 1.25rem 1.25rem;
+  }
+  .contact__wrap_block_info a:last-child img {
+    width: 8.75rem;
+  }
+  .contact__wrap_block_info_descr {
+    font-size: 10px;
+  }
+  .contact__wrap_block_info_link {
+    margin-top: 0;
+    font-size: 1.5rem;
+  }
+  .contact__wrap_block_info_link img {
+    width: 1.875rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 33.75rem;
+  }
+
+  .header__wrap .logo {
+    font-size: 1.25rem;
+  }
+  .header__wrap .logo img {
+    width: 1.25rem;
+  }
+  .header__wrap .logo sub {
+    font-size: 0.75rem;
+  }
+
+  .main .btn {
+    left: 30%;
+  }
+  .main .card {
+    height: max-content;
+    width: 16.6875rem;
+  }
+  .main .card_info {
+    padding: 0.625rem 1.25rem 1.375rem 1.25rem;
+  }
+  .main .card_info .card_title {
+    margin: 0rem 1rem 0rem 0rem;
+    font-size: 1.125rem;
+  }
+  .main .card_info .card_price {
+    font-size: 1.125rem;
+  }
+  .main .card_info .card_price img {
+    width: 0.875rem;
+  }
+  .main .card_info p {
+    font-size: 0.875rem;
+    margin-top: 0.625rem;
+  }
+  .main .card_info .legendary {
+    width: 6.75rem;
+    height: 1.875rem;
+    font-size: 1rem;
+  }
+  .main .card_info .clothes, .main .card_info .gender {
+    width: 1.875rem;
+    height: 1.875rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .main .card_info .clothes::after, .main .card_info .gender::after {
+    position: absolute;
+    top: -0.125rem;
+    left: -0.125rem;
+  }
+  .main .card_img {
+    height: 17rem;
+  }
+  .main .card_img img {
+    width: 18.75rem;
+    top: -1.5rem;
+  }
+  .main .card_img span {
+    width: 110px;
+    height: 146px;
+    top: 29%;
+    left: 28%;
+  }
+
+  .wearables__wrap_info .btn {
+    left: 33%;
+  }
+
+  .contact__wrap_block_form form button {
+    width: 6.625rem;
+    height: 3.125rem;
+    font-size: 1rem;
+  }
+  .contact__wrap_done .btn {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  .contact__wrap_done .btn img {
+    width: 3.75rem;
+  }
+  .contact__wrap_done p {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+
+  .main .btn {
+    left: 24%;
+  }
+
+  .wearables__wrap_info .btn {
+    left: 23%;
+  }
+}
