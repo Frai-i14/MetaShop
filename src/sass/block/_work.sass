@@ -1,0 +1,66 @@
+.work
+    padding-top: 10.5rem
+    min-height: 60rem
+    .section_title
+        span
+            font-weight: 900
+    &__wrap
+        width: 82.5rem
+        margin: 8.75rem auto
+        &_line
+            display: flex
+            justify-content: space-between
+        &_block
+            width: 15.625rem
+            &_item
+                position: relative
+                cursor: pointer
+                width: 15.625rem
+                height: 15.625rem
+                background: rgba(36, 33, 41, 0.5)
+                border-radius: 1.25rem
+                letter-spacing: 0.27em
+                text-transform: uppercase
+                box-sizing: border-box
+                padding-top: 1.25rem
+                color: #fff
+                margin-bottom: 1.875rem
+                text-align: center
+                &_text
+                    small
+                        font-size: 1.5rem
+                        font-weight: 500
+                        &:first-child
+                            font-size: 6.25rem
+                            font-weight: 700
+                            width: 9.375rem
+            #triangle
+                &::before
+                    content: ''
+                    position: absolute
+                    right: 1.25rem
+                    border: 40px solid transparent
+                    border-left: 30px solid rgba(36, 33, 41, 0.5)
+                    top: 50%
+                    transform: translateY(-50%)
+                    left: 15.625rem
+            &_info
+                display: none
+                p
+                    font-size: 20px
+                    line-height: 24px
+                    text-align: center
+                    letter-spacing: 0.08em
+                    color: #86808D
+                .btn
+                    margin: 2.5rem auto
+                    width: 8.4375rem
+    &_active
+        .work__wrap_block_item_text
+            small
+                background: linear-gradient(264.76deg, #B324A5 -0.75%, #FF3155 48.58%, #FFB25B 100%)
+                -webkit-background-clip: text
+                -webkit-text-fill-color: transparent
+        .work__wrap_block_info
+            display: block
+

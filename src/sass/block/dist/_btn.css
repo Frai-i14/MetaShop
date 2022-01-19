@@ -1,0 +1,63 @@
+.btn {
+  z-index: 100;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13.75rem;
+  height: 3.75rem;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  border: 0.0625rem solid transparent;
+  background: linear-gradient(#18141A, #18141A) content-box, linear-gradient(265.75deg, #B324A5 0%, #FF3155 53.13%, #FFB25B 100%) border-box;
+}
+.btn span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 2s;
+}
+.btn:hover span {
+  background: linear-gradient(264.76deg, rgba(179, 36, 165, 0.5) -0.75%, rgba(255, 49, 85, 0.5) 48.58%, rgba(255, 178, 91, 0.5) 100%);
+  filter: blur(1.75rem);
+}
+.btn:active {
+  background: linear-gradient(264.76deg, #B324A5 -0.75%, #FF3155 48.58%, #FFB25B 100%);
+}
+.btn:active span {
+  background: none;
+}
+
+.btn-blue {
+  background: linear-gradient(#18141A, #18141A) content-box, linear-gradient(265.75deg, #243BB3 0%, #31CEFF 53.13%, #B324A5 100%) border-box;
+}
+.btn-blue:hover span {
+  background: linear-gradient(264.76deg, rgba(2, 50, 126, 0.5) -0.75%, rgba(115, 152, 224, 0.5) 48.58%, rgba(165, 7, 170, 0.5) 100%);
+  filter: blur(1.75rem);
+}
+.btn-blue:active {
+  background: linear-gradient(265.75deg, #243BB3 0%, #31CEFF 53.13%, #B324A5 100%);
+}
+.btn-blue:active span {
+  background: none;
+}
+
+.btn-yellow {
+  background: linear-gradient(#18141A, #18141A) content-box, #fffc01 border-box;
+}
+.btn-yellow:hover span {
+  background: linear-gradient(264.76deg, rgba(230, 98, 13, 0.5) -0.75%, rgba(255, 153, 0, 0.5) 48.58%, rgba(255, 252, 1, 0.5) 100%);
+  filter: blur(1.75rem);
+}
+.btn-yellow:active {
+  background: #fffc01;
+}
+.btn-yellow:active span {
+  background: none;
+}

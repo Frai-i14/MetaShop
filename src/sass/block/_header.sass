@@ -1,0 +1,63 @@
+.header
+    width: 87.5rem
+    margin: 0px auto
+    &__wrap
+        display: flex
+        justify-content: space-between
+        height: 6.25rem
+        width: 100%
+        align-items: center
+        div
+            .logo_link 
+                sub
+                    font-weight: 300
+                    font-size: 1.5rem
+                    color: #FFFFFF
+                    text-decoration: none
+                span
+                    font-weight: 400
+                    color:#e6620d
+        .hamburger-menu
+            display: none
+        .logo
+            font-weight: 500
+            font-size: 2.25rem
+            color: #fff
+            text-decoration: none
+            sub
+                font-weight: 300
+                font-size: 1.5rem
+                span
+                    font-weight: 400
+                    background-color: #E6620D
+                    background-image:linear-gradient(111.91deg, #EC8C0A -109.38%, #E6620D 17.11%)
+                    -webkit-background-clip: text
+                    -webkit-text-fill-color: transparent
+        &_block
+            &_menu
+                display: flex
+                list-style: none
+                text-transform: uppercase
+                li
+                    cursor: pointer
+                    margin-right: 3.75rem
+                    z-index: 100
+                    &:last-child
+                        margin-right: 0px
+                    a
+                        color: #fff
+                    .line-1, .line-2, .line-3
+                        display: none
+                        background-color: #FF6857
+                        margin: .5rem 0rem 0rem 0rem
+                        border: none
+                        height: .0625rem
+                    .line-2
+                        background-color: #31CEFF
+                    .line-3
+                        background-color: #FFFC01
+                .menu_item-active
+                    hr
+                        display: block
+            .main__wrap_content_block-social_links
+                display: none
